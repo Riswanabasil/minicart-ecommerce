@@ -126,7 +126,7 @@ const Cart = ({ cart, removeFromCart, goHome }: Props) => {
                 </div>
 
                 <div className="px-6 pb-6">
-                  <button className="w-full py-2.5 text-[13px] font-medium tracking-wide text-[#FAF7F2] bg-[#1A1612] rounded-md hover:bg-[#C8553D] transition-colors duration-200 cursor-pointer border-none outline-none">
+                  <button className="w-full py-2.5 text-[13px] font-medium tracking-wide text-[#3D3530] bg-[#1A1612] rounded-md hover:bg-[#C8553D] transition-colors duration-200 cursor-pointer border-none outline-none">
                     Checkout
                   </button>
                 </div>
