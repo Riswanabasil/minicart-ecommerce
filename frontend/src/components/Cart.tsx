@@ -17,8 +17,8 @@ const Cart = ({ cart, removeFromCart, goHome }: Props) => {
         .font-body    { font-family: 'DM Sans', sans-serif; }
       `}</style>
 
-      <div className="font-body bg-[#FAF7F2] text-[#1A1612]">
-   <div className="font-body bg-[#FAF7F2] text-[#1A1612]">
+      <div className="font-body text-[#1A1612] w-full">
+  
 
           {/* ── Page Header ── */}
           <div className="pt-14 pb-7 border-b border-[#E2D9CE] flex flex-wrap items-end justify-between gap-4">
@@ -56,7 +56,7 @@ const Cart = ({ cart, removeFromCart, goHome }: Props) => {
 
           {/* ── Cart Items ── */}
           {cart.length > 0 && (
-            <div className="py-8 flex flex-col lg:flex-row gap-10 items-start">
+         <div className="py-8 grid lg:grid-cols-[1fr_320px] gap-10">
 
               {/* Items list */}
               <div className="flex-1 flex flex-col gap-3">
@@ -102,7 +102,7 @@ const Cart = ({ cart, removeFromCart, goHome }: Props) => {
               </div>
 
               {/* ── Order Summary ── */}
-              <div className="w-full lg:w-72 shrink-0 bg-white border border-[#E2D9CE] rounded-xl overflow-hidden sticky top-6">
+<div className="w-full bg-white border border-[#E2D9CE] rounded-xl overflow-hidden sticky top-6">
                 <div className="px-6 py-4 border-b border-[#E2D9CE]">
                   <h2 className="font-display text-xl font-semibold text-[#1A1612]">Order Summary</h2>
                 </div>
@@ -135,7 +135,7 @@ const Cart = ({ cart, removeFromCart, goHome }: Props) => {
             </div>
           )}
 
-        </div>
+        
       </div>
     </>
   );
