@@ -17,8 +17,8 @@ const Cart = ({ cart, removeFromCart, goHome }: Props) => {
         .font-body    { font-family: 'DM Sans', sans-serif; }
       `}</style>
 
-      <div className="font-body min-h-screen bg-[#FAF7F2] text-[#1A1612]">
-       <div className="w-full">
+      <div className="font-body bg-[#FAF7F2] text-[#1A1612]">
+   <div className="font-body bg-[#FAF7F2] text-[#1A1612]">
 
           {/* ── Page Header ── */}
           <div className="pt-14 pb-7 border-b border-[#E2D9CE] flex flex-wrap items-end justify-between gap-4">
