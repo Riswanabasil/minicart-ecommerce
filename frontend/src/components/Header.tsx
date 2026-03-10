@@ -16,8 +16,8 @@ const Header = ({ cartCount, goHome, goCart, search, setSearch }: Props) => {
         .font-body    { font-family: 'DM Sans', sans-serif; }
       `}</style>
 
-      <header className="font-body bg-[#FAF7F2] border-b border-[#E2D9CE]">
-        <div className="max-w-screen-xl mx-auto px-10 h-16 flex items-center justify-between gap-8">
+  <header className="w-full bg-[#e7e1db] border-b">
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
           {/* ── Brand ── */}
           <button
