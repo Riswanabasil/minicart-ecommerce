@@ -18,7 +18,7 @@ const Cart = ({ cart, removeFromCart, goHome }: Props) => {
       `}</style>
 
       <div className="font-body min-h-screen bg-[#FAF7F2] text-[#1A1612]">
-        <div className="max-w-screen-xl mx-auto px-10">
+       <div className="w-full">
 
           {/* ── Page Header ── */}
           <div className="pt-14 pb-7 border-b border-[#E2D9CE] flex flex-wrap items-end justify-between gap-4">
